@@ -6,6 +6,7 @@ This project uses convolutional neural network to predict steering angle from im
   
 
 ![track1](https://user-images.githubusercontent.com/13807244/33979745-bb3e7400-e0e0-11e7-8a42-fd4cb20ed0ec.gif)
+
 video by [Tianhong Chu](https://github.com/CtheSky/Udacity-Behavioral-Cloning)
 
 # Overview
