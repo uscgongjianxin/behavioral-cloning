@@ -26,7 +26,14 @@ autonomous mode and execute following command:
 > source /Users/gongjianxin/anaconda3/bin/activate carnd-term1
 > python drive.py model.h5
 ```
-  
+#### Saving a video of the autonomous agent
+
+```sh
+python drive.py model.h5 run1
+```
+
+The fourth argument, `run1`, is the directory in which to save the images seen by the agent. If the directory already exists, it'll be overwritten.
+
 ### `video.py`
 
 ```sh
