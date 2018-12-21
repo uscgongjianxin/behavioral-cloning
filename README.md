@@ -13,10 +13,10 @@ In this project, I will use what you've learned about deep neural networks and c
 ### Project Files
 |  Filename   |   Description  | 
 |:-------------:|:-------------:|
-| prepare_data.ipynb |  ipython notebook for data preprocessing and argumentation |
-| model.py | define and train the neual network |
-| model.h5 | saved model by keras |
-| drive.py | communicate with simulator and use saved model to predict steering angle  |
+| behavior_cloning_test.ipynb |  ipython notebook for data preprocessing and argumentation |
+| model.py | create and train the model |
+| model.h5 | a trained Keras model |
+| drive.py | script to drive the car - feel free to modify this file |
 
 ### Usage
 Download simulator from [thie repository](https://github.com/udacity/self-driving-car-sim), run the simulator in 
