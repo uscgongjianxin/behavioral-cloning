@@ -9,14 +9,7 @@ This project uses convolutional neural network to predict steering angle from im
 [link to youtube video](https://www.youtube.com/watch?v=bQS9oFGehEU)
 
 # Overview
-The goals / steps of this project are the following:
-* Use the simulator to collect data of good driving behavior
-* Build, a convolution neural network in Keras that predicts steering angles from images
-* Train and validate the model with a training and validation set
-* Test that the model successfully drives around track one without leaving the road
-* Summarize the results with a written report
-
-Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.
+In this project, I will use what you've learned about deep neural networks and convolutional neural networks to clone driving behavior. I will train, validate and test a model using Keras. The model will output a steering angle to an autonomous vehicle.
 
 ### Project Files
 |  Filename   |   Description  | 
@@ -25,12 +18,13 @@ Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/4
 | model.py | define and train the neual network |
 | model.h5 | saved model by keras |
 | drive.py | communicate with simulator and use saved model to predict steering angle  |
-| video.ogv | track 1 video record |
 
 ### Usage
 Download simulator from [thie repository](https://github.com/udacity/self-driving-car-sim), run the simulator in 
 autonomous mode and execute following command:
 ```
+> cd SDC_Engineer/CarND-Behavioral-Cloning-P3/
+> source /Users/gongjianxin/anaconda3/bin/activate carnd-term1
 > python drive.py model.h5
 ```
 
